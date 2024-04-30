@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>fishermen</title>
+</head>
+<body>
+    <h1>fishermen Form</h1>
+    <form method="post" action="fishermen.php">
+        <label for="fishermenid">fishermen Id:</label>
+        <input type="number" id="fishermenid" name="fishermenid" required><br><br>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+        <label for="address">address:</label>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="gend">Gender:</label>
+        <select name="gend" id="gend">
+            <option>Male</option>
+            <option>Female</option>
+        </select><br><br>
+
+        <input type="submit" name="add" value="Insert"><br><br>
+
+        <a href="./home.html">Go Back to Home</a>
+    </form>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>permit</title>
+</head>
+<body>
+    <h1>permit Form</h1>
+    <form method="post" action="permit.php">
+        <label for="permitid">permit Id:</label>
+        <input type="number" id="permitid" name="permitid" required><br><br>
+
+        <label for="fishermenid">fishermen id:</label>
+        <input type="number" id="fishermenid" name="fishermenid" required><br><br>
+
+        <label for="lname">permit_type:</label>
+        <input type="text" id="permit_type" name="permit_type" required><br><br>
+
+        <label for="vaild_from">vaild_from:</label>
+        <input type="date" id="vaild_from" name="vaild_from" required><br><br>
+
+        <label for="vaild_to">vaild_to:</label>
+        <input type="date" id="vaild_to" name="vaild_to" required><br><br>
+
+        <input type="submit" name="add" value="Insert"><br><br>
+
+        <a href="./home.html">Go Back to Home</a>
+    </form>

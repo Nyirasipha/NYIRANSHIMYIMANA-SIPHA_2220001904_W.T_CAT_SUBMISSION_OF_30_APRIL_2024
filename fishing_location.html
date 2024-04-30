@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>fishing_location</title>
+</head>
+<body>
+    <h1>fishing_location Form</h1>
+    <form method="post" action=fishing_location.php">
+        <label for="locationid">location Id:</label>
+        <input type="number" id="locationid" name="locationid" required><br><br>
+
+        <label for="name"> Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="cordinates">cordnates</label>
+        <input type="text" id="cordinates" name="cordinates" required><br><br>
+
+        <label for="watertype">watertype:</label>
+        <input type="watertyped" id="watertyped" name="watertype" required><br><br>
+
+        <input type="submit" name="add" value="Insert"><br><br>
+
+        <a href="./home.html">Go Back to Home</a>
+    </form>

@@ -1,0 +1,77 @@
+<html>
+    <header>
+        <title>Login</title>
+        <style>
+            #ribbon li{
+                text-decoration: none;
+                float: left;
+                display: inline-block;
+                margin-left: 5%;
+                margin-top: 20px;
+                font-size: 30px;
+            }
+            #ribbon li a{
+                text-decoration: none;
+                color: black;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            footer #foot{
+                color: white;
+                text-align: center;
+                padding-top: 70px;
+            } 
+            footer{
+                margin-top: 50px;
+                height: 100px;
+                background-color: black
+            }
+            #picture{
+                text-align: center;
+                padding-top: 100px;
+            }
+            #paragraphing{
+                margin-left: 50px;
+            }
+            #scroll{
+                margin-top: 50px;;
+                padding-top: 10px;
+                background-color: black;color: white;height: 50px;font-size: 30px;border-radius: 100px;
+                text-align: center;
+            } 
+            #scroll a{
+                text-decoration: none;
+                color: white;
+            }
+            .parent-block div{
+                float: left;
+                display: inline-block;
+                width: 40%;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 50px;
+            }
+        </style>
+    </header>
+    <body>
+        <!--Home Ribbon on the website of the system-->
+        <div>
+            <ol id="Ribbon">
+                <li><a href=".\index.html">Home</a></li>
+                <li><a href=".\About.html">About</a></li>
+                <li><a href=".\Services.html">Services</a></li>
+                <li><a href=".\Form.html">Form</a></li>
+                <li><a href=".\My book.html">My Book</a></li>
+            </ol>
+        </div></br></br></br></br>
+        |<h1 style="text-align: center;margin-bottom: 40px;">Contiue to Our System</h1>
+        <form style="text-align: center;" action="login.php" method="POST" enctype="">
+            <div><label>Fullname: </label>&nbsp;&nbsp;&nbsp;<input type="text" name="username"></div></br>
+            <div><label>Password: </label>&nbsp;&nbsp;&nbsp;<input type="password" name="password"></div></br>
+            <button name="subject" type="login" value="Login">Login</button>
+            <button name="subject" type="login" value="Login"><a href="register.html">register</a></button>
+        </form>
+    </body>
+    <footer style="margin-top: 230px;">
+        <div id="foot">Copyright © 2024 FMP All Right Reserved</div>
+    </footer>
+</html>
